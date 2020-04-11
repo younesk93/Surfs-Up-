@@ -36,8 +36,6 @@ Using Python and SQLAlchemy to do basic climate analysis and data exploration of
 
   * Which station has the highest number of observations?
 
-  * Hint: You may need to use functions such as `func.min`, `func.max`, `func.avg`, and `func.count` in your queries.
-
 * Design a query to retrieve the last 12 months of temperature observation data (tobs).
 
   * Filter by the station with the highest number of observations.
@@ -81,12 +79,6 @@ Now that once the initial analysis is completed, I designed a Flask API based on
   * When given the start only, calculate `TMIN`, `TAVG`, and `TMAX` for all dates greater than and equal to the start date.
 
   * When given the start and the end date, calculate the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive.
-
-## Hints
-
-* You will need to join the station and measurement tables for some of the analysis queries.
-
-* Use Flask `jsonify` to convert your API data into a valid JSON response object.
 
 - - -
 
