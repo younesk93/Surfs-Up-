@@ -48,7 +48,7 @@ Using Python and SQLAlchemy to do basic climate analysis and data exploration of
 
 ## Step 2 - Climate App
 
-Now that you have completed your initial analysis, design a Flask API based on the queries that you have just developed.
+Now that once the initial analysis is completed, I designed a Flask API based on the queries that I have just developed.
 
 * Use FLASK to create your routes.
 
