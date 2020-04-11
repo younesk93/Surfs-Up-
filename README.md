@@ -90,7 +90,7 @@ Now that once the initial analysis is completed, I designed a Flask API based on
 
 * Identify the average temperature in June at all stations across all available years in the dataset. Doing the same for December temperature.
 
-* Use the t-test to determine whether the difference in the means, if any, is statistically significant.
+* Using the t-test to determine whether the difference in the means, if any, is statistically significant.
 
 ### Temperature Analysis II
 
@@ -110,10 +110,8 @@ Now that once the initial analysis is completed, I designed a Flask API based on
 
 * Calculate the daily normals. Normals are the averages for the min, avg, and max temperatures.
 
-* You are provided with a function called `daily_normals` that will calculate the daily normals for a specific date. This date string will be in the format `%m-%d`. Be sure to use all historic tobs that match that date string.
+* Creating a list of dates for your trip in the format `%m-%d`. Use the `daily_normals` function to calculate the normals for each date string and append the results to a list.
 
-* Create a list of dates for your trip in the format `%m-%d`. Use the `daily_normals` function to calculate the normals for each date string and append the results to a list.
+* Loading the list of daily normals into a Pandas DataFrame and set the index equal to the date.
 
-* Load the list of daily normals into a Pandas DataFrame and set the index equal to the date.
-
-* Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
+* Using Pandas to plot an area plot (`stacked=False`) for the daily normals.
